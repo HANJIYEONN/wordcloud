@@ -3,17 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "author": "",
+  "scripts": {
+    "start": "set NODE_ENV=development&&webpack-dev-server",
+    "build": "set NODE_ENV=production&&webpack -p"
+  },
+  "author": "HANJIYEON <onedelay1@naver.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.3",
-    "babel-preset-react-app": "^10.0.1",
-    "webpack": "^5.69.1",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
-  }
+    "babel-preset-react-app": "^7.0.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "repository": "https://github.com/HANJIYEONN/wordcloud.git"
 }
